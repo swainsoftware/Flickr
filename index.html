@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> MWT - W11 - JSON Flickr</title>
+	<!-- by Andrei Rjabokon -->
+	<!-- 21/05/2015 -->
+	<!-- ver 1.9 -->
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="myCss.css">
+	<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css"> 
+	
+	<script type="text/javascript" src="jquery-1.11.3.min.js"></script> 
+	<script type="text/javascript" src="jquery.mobile-1.4.5.min.js"></script>
+	<script type="text/javascript" src="myJs.js"></script>
+</head>
+
+<body onload="bodyInitialise()">
+
+<div id="mainDiv">
+	<div data-role="header" data-theme="b">
+		<h3>Flickr pics search</h3>
+	</div>
+	
+	<input id="inputField" placeholder="Search for pics..." />
+	<button id="searchButton">Search</button>
+	
+	<div id="images">
+		<!-- thumbs go here -->
+		<div id="imgPopups">
+			<!-- popups go here -->
+		</div>
+	</div>
+	
+	<div data-role="footer" data-theme="b"><p class="footlabel"> SWAIN Soft 2015 </p></div>
+</div> 
+
+</body>
+</html>

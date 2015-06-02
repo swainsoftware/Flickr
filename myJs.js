@@ -1,5 +1,5 @@
 //	MWT - W11 - JSON
-//	ver 1.9.1
+//	ver 1.9.2
 //	JavaScript file
 //	by Andrei Rjabokon	21/05/2015
 //	updated 02/06/2015
